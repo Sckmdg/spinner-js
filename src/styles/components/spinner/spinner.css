@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .bearing {
@@ -16,6 +17,7 @@
 .blade {
   width: 65px;
   height: 65px;
+  position: absolute;
 }
 
 .cross {
