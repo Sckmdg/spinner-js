@@ -1,0 +1,39 @@
+.spinner {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bearing {
+  width: 75px;
+  height: 75px;
+  border-radius: 40px;
+  background: #343335;
+}
+
+.blade {
+  width: 65px;
+  height: 65px;
+}
+
+.cross {
+  background: url('../../../img/PS-cross.png') no-repeat;
+  background-size: contain;
+}
+
+.circle {
+  background: url('../../../img/PS-circle.png') no-repeat;
+  background-size: contain;
+}
+
+.triangle {
+  background: url('../../../img/PS-triangle.png') no-repeat;
+  background-size: contain;
+}
+
+.square {
+  background: url('../../../img/PS-square.png') no-repeat;
+  background-size: contain;
+}

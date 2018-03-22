@@ -5,8 +5,11 @@ class Spinner extends Component {
   render() {
     return (
       <div className='spinner'>
-        Spinner
-        <Blade />
+        <Blade className='cross' />
+        <Blade className='circle' />
+        <div className='bearing' />
+        <Blade className='triangle' />
+        <Blade className='square' />
       </div>
     );
   }
