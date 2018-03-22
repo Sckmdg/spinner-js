@@ -3,9 +3,13 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
     return (
-      <div className='footer'>
+      <footer>
         Footer 2K18
-      </div>
+        <ul>
+          <li><a href='https://github.com/Sckmdg/spinner-js'>Repo for this miracle</a></li>
+          <li><a href='https://github.com/Sckmdg'>Magician</a></li>
+        </ul>
+      </footer>
     );
   }
 }

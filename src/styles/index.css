@@ -1,3 +1,18 @@
+@import "components/common/common.css";
+@import "components/spinner/spinner.css";
+
+@font-face {
+  font-family: 'Hack-Regular';
+  src:  url('./fonts/Hack-Regular.ttf') format('truetype'),
+  url('./fonts/Hack-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pissjar Sans';
+  src:  url('./fonts/Pissjar Sans.ttf') format('truetype'),
+  url('./fonts/Pissjar Sans.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
