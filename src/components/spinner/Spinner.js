@@ -9,8 +9,8 @@ class Spinner extends Component {
     }
   }
 
-  calcPos = (angle, startPos, rate) => {
-    return startPos + angle * rate
+  spin = () => {
+    this.setState({angle: this.state.angle + 1})
   };
 
   render() {
@@ -20,32 +20,32 @@ class Spinner extends Component {
         <Blade
           className='cross'
           angle={angle}
-          calcPos={this.calcPos}
-          startPos={{top: 60, left: 140}}
+          startPos={{top: -90, left: 0}}
         />
 
         <Blade
           className='circle'
           angle={angle + 90}
-          calcPos={this.calcPos}
-          startPos={{top: 145, left: 240}}
+          startPos={{top: 0, left: 90}}
         />
 
-        <div className='bearing' />
+        <div className='blade bearing' />
 
         <Blade
           className='triangle'
           angle={angle + 180}
-          calcPos={this.calcPos}
-          startPos={{top: 240, left: 140}}
+          startPos={{top: 90, left: 0}}
         />
 
         <Blade
           className='square'
           angle={angle + 270}
-          calcPos={this.calcPos}
-          startPos={{top: 145, left: 40}}
+          startPos={{top: 0, left: -90}}
         />
+
+        <button onClick={this.spin} className='spin'>
+          Spin
+        </button>
       </div>
     );
   }

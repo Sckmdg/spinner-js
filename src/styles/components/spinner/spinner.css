@@ -1,16 +1,14 @@
 .spinner {
   width: 350px;
   height: 350px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 150px;
+  margin-left: 250px;
   position: relative;
 }
 
 .bearing {
-  width: 75px;
-  height: 75px;
-  border-radius: 40px;
+  left: 0;
+  top: 0;
   background: #343335;
 }
 
@@ -18,24 +16,35 @@
   width: 65px;
   height: 65px;
   position: absolute;
+  border-radius: 50px;
 }
 
 .cross {
-  background: url('../../../img/PS-cross.png') no-repeat;
-  background-size: contain;
+  /*background: #343335;*/
+  background: #343335 url('../../../img/PS-cross.png') no-repeat;
+  background-size: cover;
 }
 
 .circle {
-  background: url('../../../img/PS-circle.png') no-repeat;
-  background-size: contain;
+  /*background: #343335;*/
+  background: #343335 url('../../../img/PS-circle.png') no-repeat;
+  background-size: cover;
 }
 
 .triangle {
-  background: url('../../../img/PS-triangle.png') no-repeat;
-  background-size: contain;
+  /*background: #343335;*/
+  background: #343335 url('../../../img/PS-triangle.png') no-repeat;
+  background-size: cover;
 }
 
 .square {
-  background: url('../../../img/PS-square.png') no-repeat;
-  background-size: contain;
+  /*background: #343335;*/
+  background: #343335 url('../../../img/PS-square.png') no-repeat;
+  background-size: cover;
+}
+
+.spin {
+  position: absolute;
+  left: 13px;
+  top: 180px;
 }
